@@ -16,9 +16,9 @@ for country in countries:
 driver.find_element_by_id('ctl00_mainContent_ddl_originStation1_CTXT').click()
 source_List = driver.find_elements_by_css_selector("[id='dropdownGroup1'] [class='dropdownDiv'] li")
 
-
 for source in source_List:
     if 'DEL' in source.text:
+
         source.click()
         break
 
