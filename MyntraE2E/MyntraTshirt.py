@@ -40,5 +40,4 @@ print(len(product_list))
 for product in product_list:
     product_name = product.find_element_by_xpath(".//h4[@class='product-product']")
     print(product_name.text)
-    product_price = product.find_element_by_xpath(".//span[@class='product-discountedPrice']")
-    print(product_price.text)
+
