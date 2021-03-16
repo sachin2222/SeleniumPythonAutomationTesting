@@ -1,9 +1,11 @@
+import inspect
 import logging
 
 
 class Base:
     def get_Logger(self):
-        logger = logging.getLogger(__name__)
+        loggerName = inspect.stack()[1][3]
+        logger = logging.getLogger(loggerName)
         file_handler = logging.FileHandler("greenkart.log")
 
         formatter = logging.Formatter("%(asctime)s :%(levelname)s : %(name)s :%(message)s")

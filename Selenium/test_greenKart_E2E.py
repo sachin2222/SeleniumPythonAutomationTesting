@@ -1,7 +1,8 @@
 from Base.Base import Base
 
 
-class green_Kart(Base):
-    def purchase(self):
-        logger = self.get_Logger()
-        logger.info("Green Kart Items has been Purchased")
+class Testdemo(Base):
+    def test_purchase(self):
+        log=self.get_Logger()
+        log.info("Test_Purchase Executed")
+        log.error("Error Message")
