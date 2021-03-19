@@ -1,3 +1,7 @@
 2021-03-16 15:35:29,775 :INFO : test_purchase :Test_Purchase Executed
 2021-03-16 15:36:09,463 :INFO : test_purchase :Test_Purchase Executed
 2021-03-16 15:36:09,465 :ERROR : test_purchase :Error Message
+2021-03-16 15:42:53,997 :INFO : test_purchase :Test_Purchase Executed
+2021-03-16 15:42:53,999 :ERROR : test_purchase :Error Message
+2021-03-16 15:44:11,474 :INFO : test_purchase :Test_Purchase Executed
+2021-03-16 15:44:11,475 :ERROR : test_purchase :Error Message

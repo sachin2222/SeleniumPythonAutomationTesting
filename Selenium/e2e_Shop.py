@@ -1,4 +1,5 @@
 from selenium import webdriver
+from selenium.webdriver.common import keys
 from selenium.webdriver.common.by import By
 from selenium.webdriver.support.wait import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
@@ -12,7 +13,6 @@ driver.implicitly_wait(5)
 wait = WebDriverWait(driver, 10)
 driver.get("https://rahulshettyacademy.com/angularpractice/shop")
 phone_list = driver.find_elements_by_xpath("//div[@class='card-body']")
-
 for phone in phone_list:
     phoneName = phone.find_element_by_xpath(".//h4/a").text
     if phoneName == 'Blackberry':
